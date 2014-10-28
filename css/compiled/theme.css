@@ -418,3 +418,7 @@ header {
     display: list-item; }
   .content-switcher-container .content-switcher-navigation li.active {
     color: red; }
+
+.slides li img {
+  display: block;
+  width: 100%; }
