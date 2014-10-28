@@ -679,11 +679,24 @@ header {
   .content-switcher-texts li {
     display:none;
     position:absolute;
+    list-style-type: none;
   }
   .content-switcher-texts li:first-child {
     display: list-item;
   }
-  .content-switcher-navigation li.active {
-    color:red;
+  .content-switcher-navigation li {
+    line-height: 2em;
+    font-size: 16px;
+    margin-left: 60px;
   }
+  .content-switcher-navigation li:hover{
+    font-size: 17px;
+  }
+  .content-switcher-navigation li.active {
+  }
+}
+
+.navbar-inverse .navbar-toggle {
+  border: 0px solid;
+  outline: none;
 }

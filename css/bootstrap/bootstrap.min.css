@@ -1899,7 +1899,7 @@ textarea.input-lg {
 
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
     color: #333;
-    background-color: #ebebeb;
+    background-color: ;
     border-color: #adadad
 }
 
@@ -3833,14 +3833,14 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .navbar-toggle {
     position: relative;
     float: right;
-    padding: 9px 10px;
-    margin-top: 8px;
+    padding: ;
+    margin-top: ;
     margin-right: 15px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     margin-left: 1000px;
-    background-color: #333;
-    border: 1px solid #000000;
-    border-radius: 4px
+    background-color: #002049;
+    border: ;
+    border-radius:
 }
 
 .navbar-toggle .icon-bar {
@@ -4069,7 +4069,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ccc
+    background-color: #
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -4162,11 +4162,11 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #333
+    border-color: #002049
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: #333
+    background-color: #002049
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
