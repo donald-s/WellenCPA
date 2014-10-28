@@ -413,7 +413,8 @@ header {
   overflow: hidden; }
   .content-switcher-container .content-switcher-texts li {
     display: none;
-    position: absolute; }
+    position: absolute;
+    list-style-type: none; }
   .content-switcher-container .content-switcher-texts li:first-child {
     display: list-item; }
   .content-switcher-container .content-switcher-navigation li.active {
@@ -422,3 +423,13 @@ header {
 .slides li img {
   display: block;
   width: 100%; }
+  .content-switcher-container .content-switcher-navigation li {
+    line-height: 2em;
+    font-size: 16px;
+    margin-left: 60px; }
+  .content-switcher-container .content-switcher-navigation li:hover {
+    font-size: 17px; }
+
+.navbar-inverse .navbar-toggle {
+  border: 0px solid;
+  outline: none; }
