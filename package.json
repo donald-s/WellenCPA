@@ -1,0 +1,10 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-ftp": "^1.0.1",
+    "gulp-sass": "^0.7.3"
+  }
+}
