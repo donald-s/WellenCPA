@@ -94,6 +94,7 @@ var contentSwitcher = {
 
 $(window).load(function () {
     $('.home-page-flexslider').flexslider({
-        "controlNav": false
+        "controlNav": false,
+        "directionNav": false
     });
 });

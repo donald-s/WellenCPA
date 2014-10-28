@@ -138,13 +138,12 @@ header {
   #content-navigation li:hover {
     font-size: 17px;
   }
-  #content-navigation{
+  #content-navigation {
     font-size: 16px;
     line-height: 3em;
     display: block;
     width: 260px;
     margin: 0px auto;
-
 
     @media all and (min-width: 768px) {
       width: 50%;
@@ -227,8 +226,6 @@ header {
     }
   }
 }
-
-
 
 .section_header {
   width: 100%;
@@ -564,24 +561,40 @@ header {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .navbar {
-    margin-bottom: 0;
 
-    &.transparent {
-      &.navbar-fixed-top {
-        margin-bottom: -70px;
-        position: relative;
-        top: 999;
+  .navbar-inverse {
+    .container {
+      .navbar-header {
+        .navbar-brand {
+          margin-left: -5px;
+        }
       }
     }
+  }
 
-    &.home {
-      &.navbar-fixed-top {
-        margin-bottom: -70px;
-        position: relative;
-        top: 999;
+  .navbar-nav {
+    .open {
+      .dropdown-menu {
+        > li {
+          > a {
+            line-height: 25px;
+            font-weight: bold;
+            padding: 5px 15px 5px 35px;
+          }
+        }
       }
     }
+  }
+
+  .navbar-left {
+    float:none !important;
+    margin-left: 0px;
+  }
+
+  .navbar-right {
+    float:none !important;
+    margin-top:0px;
+    margin-bottom:0px;
   }
 }
 
@@ -674,11 +687,29 @@ header {
 
 }
 
+@media (max-width:991px) {
+  .navbar-collapse .navbar-text:last-child {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  .navbar ul.navbar-nav {
+    padding: 0px;
+  }
+  .nav > li {
+    position: relative;
+    display: block;
+    float: left !important;
+    width: 33%;
+    text-align: center;
+  }
+}
+
 .content-switcher-container {
-  overflow:hidden;
+  overflow: hidden;
   .content-switcher-texts li {
-    display:none;
-    position:absolute;
+    display: none;
+    position: absolute;
     list-style-type: none;
   }
   .content-switcher-texts li:first-child {
@@ -689,7 +720,7 @@ header {
     font-size: 16px;
     margin-left: 60px;
   }
-  .content-switcher-navigation li:hover{
+  .content-switcher-navigation li:hover {
     font-size: 17px;
   }
   .content-switcher-navigation li.active {
@@ -703,5 +734,5 @@ header {
 
 .slides li img {
   display: block;
-  width:100%;
+  width: 100%;
 }
