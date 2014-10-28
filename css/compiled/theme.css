@@ -414,5 +414,7 @@ header {
   .content-switcher-container .content-switcher-texts li {
     display: none;
     position: absolute; }
+  .content-switcher-container .content-switcher-texts li:first-child {
+    display: list-item; }
   .content-switcher-container .content-switcher-navigation li.active {
     color: red; }

@@ -680,6 +680,9 @@ header {
     display:none;
     position:absolute;
   }
+  .content-switcher-texts li:first-child {
+    display: list-item;
+  }
   .content-switcher-navigation li.active {
     color:red;
   }
