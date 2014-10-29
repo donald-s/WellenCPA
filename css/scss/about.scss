@@ -292,6 +292,33 @@
 	}
 }	
 
+.container {
+  .review {
+    margin-bottom: 30px;
+  }
+  .margin-bottom {
+    margin-bottom: 70px;
+  }
+  p {
+    text-align: center;
+  }
+  .icon-wrapper {
+    ul {
+      margin-bottom: 50px;
+      li {
+        list-style-type: none;
+        float: left;
+        width: 33.33333%;
+        img {
+          height: auto;
+          width: 40px;
+          display: block;
+          margin: 0px auto;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 767px) {	
 	#team{
 

@@ -172,6 +172,24 @@
       margin-left: -75px;
       margin-top: -54px; } }
 
+.container .review {
+  margin-bottom: 30px; }
+.container .margin-bottom {
+  margin-bottom: 70px; }
+.container p {
+  text-align: center; }
+.container .icon-wrapper ul {
+  margin-bottom: 50px; }
+  .container .icon-wrapper ul li {
+    list-style-type: none;
+    float: left;
+    width: 33.33333%; }
+    .container .icon-wrapper ul li img {
+      height: auto;
+      width: 40px;
+      display: block;
+      margin: 0px auto; }
+
 @media (max-width: 767px) {
   #team .container {
     padding: 0px 20px; }

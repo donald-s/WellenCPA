@@ -1,5 +1,17 @@
 /* Main Slider
 -------------------------------------------------- */
+.container {
+  .spirit-fm {
+    text-align: center;
+  }
+  .spirit-fm-logo {
+    display: block;
+    width: 75px;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 50px;
+  }
+}
 #feature_slider {
     height:720px;
     height: 480px;
@@ -387,7 +399,7 @@
 -------------------------------------------------- */
 #features {
     margin-top: 70px;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 
     .feature {
         border-bottom: 1px solid #e0e0e0;

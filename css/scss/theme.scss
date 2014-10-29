@@ -62,11 +62,13 @@ header {
 
 &.navbar-inverse {
   background-color: #002049;
+
   border-bottom: 1px solid rgb(0, 0, 0);
   position: static;
 
   &.navbar-static-top {
     background-color: #002049;
+
 
     .container {
       margin-top: 0;
@@ -396,7 +398,7 @@ header {
 
   /* credits */
   .credits {
-    border-top: 1px solid #777777;
+    border-top: 1px solid #cccccc;
     padding: 10px 0px 60px 0px;
 
     .social {
@@ -675,11 +677,12 @@ header {
 }
 
 .content-switcher-container {
-  overflow:hidden;
+  margin-bottom:20px;
   .content-switcher-texts li {
-    display:none;
+    opacity:0.01;
     position:absolute;
     list-style-type: none;
+    position:absolute;
   }
   .content-switcher-texts li:first-child {
     display: list-item;
