@@ -91,3 +91,10 @@ var contentSwitcher = {
         });
     }
 }
+
+$(window).load(function () {
+    $('.home-page-flexslider').flexslider({
+        "controlNav": false,
+        "directionNav": false
+    });
+});

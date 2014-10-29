@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="css/compiled/index.css" type="text/css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection"/>
 
+    <!-- Flexslider-->
+    <link rel="stylesheet" href="css/lib/flexslider.css" type="text/css"/>
+
     <link rel="shortcut icon" href="http://www.wellencpa.com/favicon.ico" type="image/x-icon"/>
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -44,7 +47,6 @@
 
         <div class="navbar-right">
             <p class="contact-header">CALL US</p>
-
             <p class="phone-number">813-643-2904</p>
         </div>
 
@@ -58,38 +60,24 @@
     </div>
 </div>
 
-<section id="feature_slider" class="lol col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-12">
-    <!--
-            Each slide is composed by <img> and .info
-            - .info's position is customized with css in index.css
-            - each <img> parallax effect is declared by the following params inside its class:
-
-            example: class="asset left-472 sp600 t120 z3"
-            left-472 means left: -472px from the center
-            sp600 is speed transition
-            t120 is top to 120px
-            z3 is z-index to 3
-            Note: Maintain this order of params
-
-            For the backgrounds, you can combine from the bgs folder :D
-        -->
-    <article class="slide" id="showcasing" style="background: url('img/wellen-cpa-office.png');">
-        <div class="info">
-        </div>
-    </article>
-    <article class="slide" id="ideas" style="background: url('img/robert-wellen.png') repeat-x top center;">
-    </article>
-    <article class="slide" id="tour"
-             style="background: url('img/office-staff.png') repeat-x top center;">
-        <div class="info">
-        </div>
-    </article>
-    <article class="slide" id="responsive"
-             style="background: url('img/front-desk.png') repeat-x top center;">
-        <div class="info">
-        </div>
-    </article>
-</section>
+<div class="container">
+    <div class="home-page-flexslider">
+        <ul class="slides">
+            <li>
+                <img src="img/front-desk.png"/>
+            </li>
+            <li>
+                <img src="img/robert-wellen.png"/>
+            </li>
+            <li>
+                <img src="img/office-staff.png"/>
+            </li>
+            <li>
+                <img src="img/wellen-cpa-office.png"/>
+            </li>
+        </ul>
+    </div>
+</div>
 
 <div class="container">
     <p class="main-content">Our accounting firm has been dedicated to serving businesses and individuals in Brandon and
@@ -213,6 +201,7 @@
 <!-- Scripts -->
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/flexslider.js"></script>
 <script src="js/theme.js"></script>
 
 <script type="text/javascript" src="js/index-slider.js"></script>
