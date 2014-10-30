@@ -710,23 +710,23 @@ header {
 
 .content-switcher-container {
   margin-bottom:20px;
-  .content-switcher-texts li {
-    opacity:0.01;
-    position:absolute;
-    list-style-type: none;
+  position:relative;
+  .content-switcher-texts {
+    height: 205px;
+    li {
+      display: none;
+      position: absolute;
+      list-style-type: none;
+    }
   }
-  .content-switcher-texts li:first-child {
-    display: list-item;
-  }
-  .content-switcher-navigation li {
-    line-height: 2em;
-    font-size: 16px;
+  .content-switcher-navigation{
     margin-left: 60px;
-  }
-  .content-switcher-navigation li:hover {
-    font-size: 17px;
-  }
-  .content-switcher-navigation li.active {
+    li {
+      line-height: 2em;
+      &:hover, &.active {
+        font-weight: bold;
+      }
+    }
   }
 }
 

@@ -19,7 +19,7 @@ $(function () {
 
     portfolioItem.initialize();
 
-    contentSwitcher.initialize();
+    contentSwitcher.initialize({"showPreview": true});
 
 
     // segun esto corrige el pedo del dropdown en tablets and such
@@ -77,10 +77,20 @@ var servicesCircle = {
 
 // Content switcher for the home page
 var contentSwitcher = {
-    initialize: function () {
+    initialize: function (options) {
+        /*
+        * Function to initialize the content switcher.
+        * options = {
+        * "showPreview" | bool = whether or not to show the first item as a preview
+        * }
+        * */
         var $container = $(".content-switcher-container");
         var $texts = $container.find(".content-switcher-texts li");
         var $controls = $container.find(".content-switcher-navigation li");
+        if (options.showPreview) {
+            $controls.eq(0).hide();
+        }
+        $texts.eq(0).show();
 
         $controls.click(function () {
             var index = $controls.index(this);
