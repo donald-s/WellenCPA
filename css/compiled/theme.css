@@ -262,7 +262,7 @@ header {
       #footer .contact input[type="submit"]:hover {
         background-color: #2190DB; }
   #footer .credits {
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid #777777;
     padding: 10px 0px 60px 0px; }
     #footer .credits .social {
       margin-top: 30px;
@@ -427,20 +427,20 @@ header {
     text-align: center; } }
 
 .content-switcher-container {
-  margin-bottom: 20px; }
-  .content-switcher-container .content-switcher-texts li {
-    opacity: 0.01;
-    position: absolute;
-    list-style-type: none;
-    position: absolute; }
-  .content-switcher-container .content-switcher-texts li:first-child {
-    display: list-item; }
-  .content-switcher-container .content-switcher-navigation li {
-    line-height: 2em;
-    font-size: 16px;
+  margin-bottom: 20px;
+  position: relative; }
+  .content-switcher-container .content-switcher-texts {
+    height: 205px; }
+    .content-switcher-container .content-switcher-texts li {
+      display: none;
+      position: absolute;
+      list-style-type: none; }
+  .content-switcher-container .content-switcher-navigation {
     margin-left: 60px; }
-  .content-switcher-container .content-switcher-navigation li:hover {
-    font-size: 17px; }
+    .content-switcher-container .content-switcher-navigation li {
+      line-height: 2em; }
+      .content-switcher-container .content-switcher-navigation li:hover, .content-switcher-container .content-switcher-navigation li.active {
+        font-weight: bold; }
 
 .navbar-inverse .navbar-toggle {
   border: 0px solid;
