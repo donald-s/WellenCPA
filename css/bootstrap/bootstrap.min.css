@@ -443,7 +443,7 @@ h4, h5, h6 {
 }
 
 h1, .h1 {
-    font-size: 36px
+    font-size: 24px
 }
 
 h2, .h2 {
@@ -675,6 +675,7 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
+
 }
 
 .container:before, .container:after {
@@ -3837,7 +3838,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     padding: ;
     margin-top: ;
     margin-right: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 1000px;
     background-color: #002049;
     border: ;
@@ -3924,7 +3925,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 @media (min-width: 768px) {
     .navbar-left {
         float: left !important;
-        margin-left: -10px;
+        margin-left: 0px;
     }
 
     .navbar-right {

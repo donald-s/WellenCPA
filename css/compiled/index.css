@@ -1,7 +1,11 @@
 /* Main Slider
 -------------------------------------------------- */
 .container .spirit-fm {
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
+  @media all and (min-width: 768px) {
+    .container .spirit-fm {
+      margin-top: 40px; } }
 .container .spirit-fm-logo {
   display: block;
   width: 75px;
@@ -202,7 +206,7 @@
 /* Showcase services
 -------------------------------------------------- */
 #showcase {
-  margin-top: 70px; }
+  margin-top: 40px; }
   #showcase .image img {
     box-shadow: 3px 3px 5px 0px #B7B6B7; }
   #showcase .info {
@@ -262,7 +266,7 @@
 /* Features
 -------------------------------------------------- */
 #features {
-  margin-top: 70px;
+  margin-top: 40px;
   margin-bottom: 0px; }
   #features .feature {
     border-bottom: 1px solid #e0e0e0;

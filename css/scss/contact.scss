@@ -10,6 +10,7 @@
 			margin-bottom: 47px;
 			font-style: italic;
 			line-height: 24px;
+            text-align: center;
 		}
 
 		form {
@@ -312,6 +313,9 @@
 				.right {
 					input[type="submit"] {
 						width: 60%;
+                      @media all and (max-width: 375px) {
+                        width: 75%;
+                      }
 					}
 				}
 			}

@@ -7,7 +7,8 @@
       font-size: 19px;
       margin-bottom: 47px;
       font-style: italic;
-      line-height: 24px; }
+      line-height: 24px;
+      text-align: center; }
     #contact .contact form {
       margin: 0; }
     #contact .contact .submit {
@@ -192,5 +193,8 @@
 @media (max-width: 480px) {
   #contact .contact .submit .right input[type="submit"] {
     width: 60%; }
+    @media all and (max-width: 375px) {
+      #contact .contact .submit .right input[type="submit"] {
+        width: 75%; } }
   #contact .map .box_wrapp {
     width: 100%; } }
