@@ -72,8 +72,7 @@ header {
     -moz-transition: all 0.2s linear;
     transition: all 0.2s linear;
     padding: 15px 30px;
-    text-decoration: none;
-    font-family: Georgia, "Times New Roman", serif; }
+    text-decoration: none; }
     .navbar-inverse .nav > li > a:hover, .navbar-inverse .nav > li > a:active {
       background: #0e1534;
       /* Old browsers */
