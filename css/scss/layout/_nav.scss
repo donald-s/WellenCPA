@@ -52,11 +52,15 @@
   .nav {
     > li {
       > a {
-        padding: 5px;
+        @media all and (max-width:991px) {
+          padding: 5px;
+        }
       }
     }
     > li.active {
-      border-top: 2px solid #9f0000;
+      @media all and (max-width:991px) {
+        border-top: 2px solid #9f0000;
+      }
     }
   }
 }
