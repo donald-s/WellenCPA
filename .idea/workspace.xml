@@ -2,366 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8ac23b6-81e2-43a0-a447-d9cbbd217627" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/theme/_index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/layout/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/theme/_services.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/compiled/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/custom.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/.bin/semver.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/.bin/has-ansi.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/.bin/strip-ansi.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/.bin/supports-color.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/test/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/test/test_weekofyear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/test/test_weekofyear.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/example/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/all_bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/dash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/default_bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/dotted.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/long.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/num.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/parse_modified.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/short.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/stop_early.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/unknown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/minimist/test/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/.jshintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/coverage.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/index.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/cloneBuffer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/inspectStream.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isBuffer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isNull.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isStream.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/perf/clone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/test/File.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/test/cloneBuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/test/inspectStream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/test/isBuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/test/isNull.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/test/isStream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/artwork/liftoff-icon.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/artwork/liftoff-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/artwork/liftoff-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/artwork/liftoff.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/artwork/liftoff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/artwork/liftoff.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/foot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/head.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/.bin/mkdirp.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/.bin/strip-bom.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/g.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/examples/usr-local.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/00-setup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/bash-comparison.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/bash-results.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/cwd-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/empty-set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/error-callback.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/globstar-match.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/mark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/negation-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/new-glob-optional-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/nocase-nomagic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/pause-resume.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/readme-issue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/root-nomount.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/stat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/test/zz-cleanup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/test/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/lru-cache/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/lru-cache/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/lru-cache/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/lru-cache/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/lru-cache/test/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/sigmund/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/sigmund/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/sigmund/bench.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/sigmund/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/sigmund/sigmund.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/node_modules/sigmund/test/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/test/caching.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/test/fixtures/.swag" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/test/fixtures/test.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/test/fixtures/whatsgoingon/hey/isaidhey/whatsgoingon/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/test/fixtures/whatsgoingon/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/test/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/dist/lodash.compat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/dist/lodash.compat.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/dist/lodash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/dist/lodash.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/dist/lodash.underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/dist/lodash.underscore.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/lodash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/lodash/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/.jshintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/coverage.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/index.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/cloneBuffer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/inspectStream.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isBuffer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isNull.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isStream.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/perf/clone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/test/File.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/test/cloneBuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/test/inspectStream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/test/isBuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/test/isNull.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/test/isStream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/test/dest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/test/fixtures/bom-utf16be.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/test/fixtures/bom-utf16le.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/test/fixtures/bom-utf8.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/test/fixtures/test.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/test/fixtures/wow/suchempty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/test/spy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/test/src.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/test/fixtures/stuff/run.dmc" afterPath="$PROJECT_DIR$/css/scss/layout/_body.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/test/fixtures/stuff/test.dmc" afterPath="$PROJECT_DIR$/css/scss/layout/_index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.browser.js.gz" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.browser.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.min.js.gz" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.min.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/.npmignore" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/.npmignore" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/interpret/CHANGELOG" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/interpret/CHANGELOG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/CHANGELOG" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/CHANGELOG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/deprecated/LICENSE" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/deprecated/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/LICENSE" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/LICENSE" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/LICENSE" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/LICENSE" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/LICENSE" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/LICENSE" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/LICENSE" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/Makefile" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/README.markdown" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/completion/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/completion/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/interpret/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/interpret/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/pretty-hrtime/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/pretty-hrtime/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/Readme.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/Readme.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/node_modules/is-utf8/ansi.txt" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/node_modules/is-utf8/ansi.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/b3.iml" afterPath="$PROJECT_DIR$/.idea/b3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/test/basic.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/test/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/test/beep.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/test/beep.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/test/brace-expand.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/test/brace-expand.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/clean.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/clean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/has-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/has-ansi/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/strip-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/strip-ansi/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/supports-color/cli.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/supports-color/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/cli.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/mkdirp/bin/cmd.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/mkdirp/bin/cmd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/lib/dateformat.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/lib/dateformat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/example.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/example.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/graceful-fs/fs.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/graceful-fs/fs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/lib/src/getStats.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/lib/src/getStats.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/glob.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/glob.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/gtr.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/gtr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/bin/gulp.js" afterPath="$PROJECT_DIR$/node_modules/gulp/bin/gulp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/gulp" afterPath="$PROJECT_DIR$/node_modules/.bin/gulp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/.bin/has-ansi" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/.bin/has-ansi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/american-flag.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wellen-cpa-background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/base/_base.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/layout/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/base/_index.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/scss/layout/_index.scss" afterPath="$PROJECT_DIR$/css/scss/layout/_index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/scss/layout/_nav.scss" afterPath="$PROJECT_DIR$/css/scss/layout/_nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/compiled/custom.css" afterPath="$PROJECT_DIR$/css/compiled/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/scss/custom.scss" afterPath="$PROJECT_DIR$/css/scss/custom.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/interpret/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/interpret/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/minimist/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/minimist/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/tildify/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/tildify/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/lib/dest/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/lib/dest/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/lib/src/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/lib/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/ordered-read-streams/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/ordered-read-streams/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/index.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/ltr.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/ltr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/minimatch.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/minimatch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/.bin/mkdirp" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/.bin/mkdirp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/test/multi_line.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/test/multi_line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/no-module.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/test/no-module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/test/non_unicode.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/test/non_unicode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/end-of-stream/node_modules/once/once.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/end-of-stream/node_modules/once/once.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/end-of-stream/node_modules/once/test/once.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/end-of-stream/node_modules/once/test/once.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/once/once.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/once/once.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/once/test/once.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/once/test/once.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/archy/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/ansi-styles/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/ansi-styles/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/escape-string-regexp/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/escape-string-regexp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/has-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/has-ansi/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/strip-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/strip-ansi/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/supports-color/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/deprecated/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/deprecated/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash._reinterpolate/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash._reinterpolate/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash._escapestringchar/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash._escapestringchar/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.defaults/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.defaults/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.defaults/node_modules/lodash._objecttypes/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.defaults/node_modules/lodash._objecttypes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._escapehtmlchar/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._escapehtmlchar/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._escapehtmlchar/node_modules/lodash._htmlescapes/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._escapehtmlchar/node_modules/lodash._htmlescapes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._reunescapedhtml/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._reunescapedhtml/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._reunescapedhtml/node_modules/lodash._htmlescapes/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._reunescapedhtml/node_modules/lodash._htmlescapes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash._isnative/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash._isnative/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash._shimkeys/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash._shimkeys/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash._shimkeys/node_modules/lodash._objecttypes/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash._shimkeys/node_modules/lodash._objecttypes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash.isobject/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash.isobject/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash.isobject/node_modules/lodash._objecttypes/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.keys/node_modules/lodash.isobject/node_modules/lodash._objecttypes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.templatesettings/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.templatesettings/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.values/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/lodash.template/node_modules/lodash.values/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/multipipe/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/isarray/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/xtend/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/xtend/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/node_modules/clone-stats/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/node_modules/clone-stats/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/interpret/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/interpret/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/extend/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/extend/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/lodash/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/minimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/end-of-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/end-of-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/end-of-stream/node_modules/once/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/end-of-stream/node_modules/once/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/sequencify/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/sequencify/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/stream-consume/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/orchestrator/node_modules/stream-consume/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/pretty-hrtime/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/pretty-hrtime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/tildify/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/tildify/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/once/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob/node_modules/once/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/minimatch/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/ordered-read-streams/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/ordered-read-streams/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/unique-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/unique-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/glob/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/lodash/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/minimatch/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/graceful-fs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/mkdirp/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/node_modules/first-chunk-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/node_modules/first-chunk-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/node_modules/is-utf8/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/node_modules/is-utf8/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/node_modules/isarray/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/xtend/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/xtend/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/node_modules/clone-stats/package.json" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/node_modules/clone-stats/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/completion/powershell" afterPath="$PROJECT_DIR$/node_modules/gulp/completion/powershell" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/readable.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/through2/node_modules/readable-stream/readable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/readable.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/through2/node_modules/readable-stream/readable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/graceful-fs/test/readdir-sort.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/graceful-fs/test/readdir-sort.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/minimist/readme.markdown" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/minimist/readme.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/tildify/readme.md" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/tildify/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.browser.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.min.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/semver.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/.bin/semver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/bin/semver" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/semver/bin/semver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/.bin/strip-ansi" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/.bin/strip-ansi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/.bin/strip-bom" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/.bin/strip-bom" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/.bin/supports-color" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/chalk/node_modules/.bin/supports-color" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/test/test_dayofweek.js" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-util/node_modules/dateformat/test/test_dayofweek.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/compiled/theme.css" afterPath="$PROJECT_DIR$/css/compiled/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/theme.js" afterPath="$PROJECT_DIR$/js/theme.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/scss/theme.scss" afterPath="$PROJECT_DIR$/css/scss/theme.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/node_modules/is-utf8/utf8.txt" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/strip-bom/node_modules/is-utf8/utf8.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="b3.iws" />
@@ -388,16 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="250" column="47" selection-start="11470" selection-end="11470" vertical-scroll-proportion="-12.0" vertical-offset="3462" max-vertical-offset="5040">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/compiled/theme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="20" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="8040">
+            <state line="45" column="35" selection-start="2282" selection-end="2282" vertical-scroll-proportion="155.5" vertical-offset="4407" max-vertical-offset="5055">
               <folding />
             </state>
           </provider>
@@ -406,61 +52,43 @@
       <file leaf-file-name="custom.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/scss/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+            <state line="2" column="22" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_index.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/scss/theme/_index.scss">
+        <entry file="file://$PROJECT_DIR$/css/scss/base/_index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_services.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/scss/theme/_services.scss">
+      <file leaf-file-name="_base.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/scss/base/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
+            <state line="26" column="33" selection-start="423" selection-end="423" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_index.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_footer.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/scss/layout/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="27" selection-start="278" selection-end="278" vertical-scroll-proportion="0.37769786" vertical-offset="0" max-vertical-offset="556">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_index.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/scss/layout/_index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="15" selection-start="30" selection-end="30" vertical-scroll-proportion="0.026978416" vertical-offset="0" max-vertical-offset="556">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_body.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/scss/layout/_body.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_nav.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/scss/layout/_nav.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="77" selection-end="77" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="3" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="825">
+            <state line="2" column="17" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
@@ -469,7 +97,16 @@
       <file leaf-file-name="theme.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/scss/theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="8" selection-start="5750" selection-end="5750" vertical-scroll-proportion="-12.416667" vertical-offset="2927" max-vertical-offset="12090">
+            <state line="97" column="24" selection-start="2274" selection-end="2274" vertical-scroll-proportion="-10.625" vertical-offset="1200" max-vertical-offset="11715">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_nav.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/scss/layout/_nav.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="36" selection-start="901" selection-end="901" vertical-scroll-proportion="-11.291667" vertical-offset="599" max-vertical-offset="1155">
               <folding />
             </state>
           </provider>
@@ -498,7 +135,6 @@
         <option value="$PROJECT_DIR$/css/bootstrap/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/compiled/theme.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/js/theme.js" />
         <option value="$PROJECT_DIR$/css/scss/about.scss" />
         <option value="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/css/scss/contact.scss" />
@@ -506,17 +142,22 @@
         <option value="$PROJECT_DIR$/about-us.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/css/compiled/custom.scss" />
-        <option value="$PROJECT_DIR$/css/scss/theme.scss" />
         <option value="$PROJECT_DIR$/css/scss/theme/services.scss" />
         <option value="$PROJECT_DIR$/css/scss/layout/_navbar.scss" />
         <option value="$PROJECT_DIR$/css/scss/theme/_index.scss" />
-        <option value="$PROJECT_DIR$/css/scss/custom.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/css/scss/layout/_nav.scss" />
         <option value="$PROJECT_DIR$/css/scss/theme/_services.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/scss/layout/_body.scss" />
+        <option value="$PROJECT_DIR$/css/scss/base/_index.scss" />
+        <option value="$PROJECT_DIR$/css/scss/custom.scss" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/js/theme.js" />
+        <option value="$PROJECT_DIR$/css/scss/theme.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/scss/layout/_nav.scss" />
+        <option value="$PROJECT_DIR$/css/scss/base/_base.scss" />
         <option value="$PROJECT_DIR$/css/scss/layout/_index.scss" />
+        <option value="$PROJECT_DIR$/css/scss/layout/_footer.scss" />
       </list>
     </option>
   </component>
@@ -571,6 +212,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -591,10 +286,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="C:\Users\Alex\Desktop\Client\Wellen CPA\Code\clean-canvas-wrap\b3\img" />
       <recent name="C:\Users\Alex\Desktop\Client\Wellen CPA\Code\clean-canvas-wrap\b3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/css/scss" />
       <recent name="C:\Users\Alex\Desktop\Client\Wellen CPA\Code\clean-canvas-wrap\b3" />
       <recent name="C:\Users\Alex\Desktop\Client\Wellen CPA\Code\clean-canvas-wrap\b3\img" />
@@ -609,7 +306,7 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="821e5b02-a0ac-4b9c-a529-68108f847f36" server_name="Wellen CPA">
       <method />
     </configuration>
     <list size="0" />
@@ -680,26 +377,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="965" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33006537" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32142857" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28697917" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28697917" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -722,9 +419,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2794562" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -754,32 +451,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/scss/contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/compiled/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -796,9 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/contact.scss">
@@ -943,13 +612,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -980,9 +642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/about.scss">
@@ -1001,9 +661,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/services.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5730">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5730" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/service1.png">
@@ -1013,7 +671,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/compiled/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="20" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="8040">
+        <state line="63" column="20" selection-start="2010" selection-end="2010" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="8040">
           <folding />
         </state>
       </provider>
@@ -1025,9 +683,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/custom.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/layout/_body.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+        <state line="1" column="19" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/theme/_services.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="134" selection-end="134" vertical-scroll-proportion="0.18884893" vertical-offset="0" max-vertical-offset="556">
           <folding />
         </state>
       </provider>
@@ -1039,44 +704,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/theme.scss">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="8" selection-start="5750" selection-end="5750" vertical-scroll-proportion="-12.416667" vertical-offset="2927" max-vertical-offset="12090">
+        <state line="11" column="3" selection-start="217" selection-end="217" vertical-scroll-proportion="-5.625" vertical-offset="30" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/layout/_nav.scss">
+    <entry file="file://$PROJECT_DIR$/js/theme.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="77" selection-end="77" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
+        <state line="111" column="11" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.0" vertical-offset="1145" max-vertical-offset="1800">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/theme/_services.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
+        <state line="2" column="22" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/base/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="556">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="47" selection-start="11470" selection-end="11470" vertical-scroll-proportion="-12.0" vertical-offset="3462" max-vertical-offset="5040">
+        <state line="45" column="35" selection-start="2282" selection-end="2282" vertical-scroll-proportion="155.5" vertical-offset="4407" max-vertical-offset="5055">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/layout/_body.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/theme.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
+        <state line="97" column="24" selection-start="2274" selection-end="2274" vertical-scroll-proportion="-10.625" vertical-offset="1200" max-vertical-offset="11715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/layout/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="36" selection-start="901" selection-end="901" vertical-scroll-proportion="-11.291667" vertical-offset="599" max-vertical-offset="1155">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/layout/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="30" selection-end="30" vertical-scroll-proportion="0.026978416" vertical-offset="0" max-vertical-offset="556">
+        <state line="2" column="17" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="33" selection-start="423" selection-end="423" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="278" selection-end="278" vertical-scroll-proportion="0.37769786" vertical-offset="0" max-vertical-offset="556">
           <folding />
         </state>
       </provider>

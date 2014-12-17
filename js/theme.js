@@ -107,4 +107,9 @@ $(window).load(function () {
         "controlNav": false,
         "directionNav": false
     });
+
+    // Lava-Lamp jquery plugin initialization
+    $('#nav').lavalamp({
+        easing: 'easeOutBack'
+    });
 });

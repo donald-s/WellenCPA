@@ -1,0 +1,19 @@
+#footer {
+  .info {
+    @media all and (max-width: 991px) {
+      text-align: center;
+    }
+
+    .touch {
+      @media all and (max-width: 767px) {
+        margin-right: -15px;
+      }
+    }
+
+    .residence {
+      @media all and (max-width: 767px) {
+        margin-left: -15px;
+      }
+    }
+  }
+}

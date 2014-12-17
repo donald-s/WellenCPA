@@ -7,3 +7,66 @@
     margin-top: 3px;
   }
 }
+
+.navbar-collapse {
+  .navbar-text:last-child {
+    margin-left: 135px;
+    @media all and (max-width:991px) {
+      margin-left: 0px;
+    }
+  }
+}
+
+.navbar-left {
+  @media all and (max-width: 991px) {
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  @media all and (max-width: 567px) {
+    float: left;
+    font-size: 14px !important;
+  }
+}
+
+.navbar {
+  .phone-number {
+    @media all and (max-width: 567px) {
+      display: none;
+    }
+  }
+}
+
+.navbar-inverse {
+  .navbar-toggle {
+    border: 1px solid white;
+    outline: none;
+    border-radius: 4px;
+    padding: 7px;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+  }
+  .nav {
+    > li {
+      > a {
+        padding: 5px;
+      }
+    }
+    > li.active {
+      border-top: 2px solid #9f0000;
+    }
+  }
+}
+
+.navbar-header {
+  h1 {
+    @media all and (max-width: 567px) {
+      font-size: 20px !important;
+      text-align: left;
+      margin-left: 8px;
+    }
+  }
+}

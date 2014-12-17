@@ -1,0 +1,30 @@
+.background {
+  opacity: 0.05;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+
+  @media all and (max-width:768px) {
+    width: 150%;
+  }
+
+  @media all and (max-width:560px) {
+    width: 200%;
+  }
+}
+
+.section_header {
+  h3 {
+    font-style: normal;
+    font-weight: bold;
+    border-bottom: 0px solid transparent;
+  }
+}
+
+.lavalamp-object {
+  border-top: 3px solid #9f0000;
+  @media all and (max-width:991px) {
+    display: none;
+  }
+}
