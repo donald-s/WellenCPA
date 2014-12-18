@@ -83,6 +83,10 @@
     .lavalamp-object {
       display: none; } }
 
+@media all and (min-width: 991px) {
+  .container > .navbar-header {
+    margin-top: 7px; } }
+
 .main-content {
   margin-top: 20px; }
 
@@ -118,3 +122,6 @@
 #in_pricing .pro .plan .wrapper {
   padding: 36px 30px 10px 30px;
   overflow: hidden; }
+
+.home-page-flexslider img.flex-image {
+  display: none; }

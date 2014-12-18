@@ -105,7 +105,10 @@ var contentSwitcher = {
 $(window).load(function () {
     $('.home-page-flexslider').flexslider({
         "controlNav": false,
-        "directionNav": false
+        "directionNav": false,
+        start: function () {
+            $(".flex-image").show();
+        }
     });
 
     // Lava-Lamp jquery plugin initialization
@@ -117,9 +120,9 @@ $(window).load(function () {
 
     // If the user is on a Safari browser, then try to open the address in Apple Maps
     if (isSafari) {
-        $("#googleMapsLink").hide();
+        $(".googleMapsLink").hide();
     // Otherwise, open it in Google Maps
     } else {
-        $("#appleMapsLink").hide();
+        $(".appleMapsLink").hide();
     }
 });
