@@ -112,4 +112,14 @@ $(window).load(function () {
     $('#nav').lavalamp({
         easing: 'easeOutBack'
     });
+
+    var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+
+    // If the user is on a Safari browser, then try to open the address in Apple Maps
+    if (isSafari) {
+        $("#googleMapsLink").hide();
+    // Otherwise, open it in Google Maps
+    } else {
+        $("#appleMapsLink").hide();
+    }
 });

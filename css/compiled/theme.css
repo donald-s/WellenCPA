@@ -443,10 +443,6 @@ header {
   #footer .credits {
     margin-top: 20px; } }
 
-@media all and (min-width: 768px) {
-  .navbar-text:last-child {
-    margin: 0 0 0 115px; } }
-
 @media (max-width: 991px) {
   .navbar-collapse .navbar-text:last-child {
     margin-right: 0;

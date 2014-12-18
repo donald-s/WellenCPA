@@ -2,6 +2,15 @@
   margin-top: 6px;
 }
 
+.navbar {
+  .navbar-header {
+    @media all and (max-width: 991px) {
+      padding-top: 10px;
+      float: none;
+    }
+  }
+}
+
 .navbar-left {
   h1 {
     margin-top: 3px;
@@ -17,13 +26,18 @@
   }
 }
 
+.navbar-text {
+  @media all and (max-width: 767px) {
+    margin: 5px 0px;
+  }
+}
+
 .navbar-left {
   @media all and (max-width: 991px) {
     display: block;
     margin: 0px auto;
     width: 300px;
     text-align: center;
-    margin-top: 5px;
   }
   @media all and (max-width: 567px) {
     float: left;
@@ -33,8 +47,9 @@
 
 .navbar {
   .phone-number {
-    @media all and (max-width: 567px) {
-      display: none;
+    @media all and (max-width: 991px) {
+      font-size: 15px;
+      margin-bottom: 20px;
     }
   }
 }
@@ -46,20 +61,26 @@
     border-radius: 4px;
     padding: 7px;
     position: absolute;
-    top: 12px;
-    right: 0px;
+    top: 18px;
+    right: 4px;
   }
   .nav {
     > li {
       > a {
         @media all and (max-width:991px) {
           padding: 5px;
+          // Set the width so that the border on the top isn't too wide
+          width: 60px;
+          display: block;
+          margin: 0px auto;
         }
       }
     }
     > li.active {
-      @media all and (max-width:991px) {
-        border-top: 2px solid #9f0000;
+      > a {
+        @media all and (max-width: 991px) {
+          border-top: 2px solid #9f0000;
+        }
       }
     }
   }
@@ -72,5 +93,12 @@
       text-align: left;
       margin-left: 8px;
     }
+  }
+}
+
+.lavalamp-object {
+  border-top: 3px solid #9f0000;
+  @media all and (max-width: 991px) {
+    display: none;
   }
 }
