@@ -1,6 +1,6 @@
 $(function () {
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top>30) {
+    $(window).scroll(function () {
+        if ($(".navbar").offset().top > 30) {
             $(".navbar-fixed-top").addClass("sticky");
         }
         else {
@@ -24,9 +24,9 @@ $(function () {
 
     // segun esto corrige el pedo del dropdown en tablets and such
     // hay que testearlo!
-    $('.dropdown-toggle').click(function(e) {
+    $('.dropdown-toggle').click(function (e) {
         e.preventDefault();
-        setTimeout($.proxy(function() {
+        setTimeout($.proxy(function () {
             if ('ontouchstart' in document.documentElement) {
                 $(this).siblings('.dropdown-backdrop').off().remove();
             }
@@ -79,11 +79,11 @@ var servicesCircle = {
 var contentSwitcher = {
     initialize: function (options) {
         /*
-        * Function to initialize the content switcher.
-        * options = {
-        * "showPreview" | bool = whether or not to show the first item as a preview
-        * }
-        * */
+         * Function to initialize the content switcher.
+         * options = {
+         * "showPreview" | bool = whether or not to show the first item as a preview
+         * }
+         * */
         var $container = $(".content-switcher-container");
         var $texts = $container.find(".content-switcher-texts li");
         var $controls = $container.find(".content-switcher-navigation li");
@@ -107,22 +107,90 @@ $(window).load(function () {
         "controlNav": false,
         "directionNav": false,
         start: function () {
-            $(".flex-image").show();
-        }
+            $(".home-page-flexslider li").show();
+        },
+        startAt: 3
     });
 
     // Lava-Lamp jquery plugin initialization
     $('#nav').lavalamp({
         easing: 'easeOutBack'
     });
+});
 
+$(document).ready(function() {
     var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
 
     // If the user is on a Safari browser, then try to open the address in Apple Maps
     if (isSafari) {
-        $(".googleMapsLink").hide();
-    // Otherwise, open it in Google Maps
+        $(".googleMapsLink").show();
+        // Otherwise, open it in Google Maps
     } else {
-        $(".appleMapsLink").hide();
+        $(".appleMapsLink").show();
+    }
+});
+
+var request;
+var contact = $("#contact");
+contact.find("form").submit(function (event) {
+    // Abort any pending request
+    if (request) {
+        request.abort();
+    }
+
+    var $form = $(this);
+
+    // Let's select and cache all the fields
+    var $inputs = $form.find("input, select, button, textarea");
+
+    // Serialize the data in the form
+    var serializedData = $form.serialize();
+
+    // Let's disable the inputs for the duration of the Ajax request.
+    // Note: we disable elements AFTER the form data has been serialized.
+    // Disabled form elements will not be serialized.
+    $inputs.prop("disabled", true);
+
+    // Fire off the request to /form.php
+    request = $.ajax({
+        url: "/email.php",
+        type: "POST",
+        data: serializedData
+    });
+
+    // Callback handler that will be called on success
+    request.done(function (response, textStatus, jqXHR) {
+        $("#contact_form_success").modal();
+        $("#contact").find("form")[0].reset();
+
+        // Remove the modal after 3 seconds
+        setTimeout(function() {
+            $("#contact_form_success").modal('hide');
+        }, 2500);
+    });
+
+    // Callback handler that will be called on failure
+    request.fail(function (jqXHR, textStatus, errorThrown) {
+        // Log the error to the console
+        console.error(
+            "The following error occurred: " +
+                textStatus, errorThrown
+        );
+    });
+
+    // Callback handler that will be called regardless
+    // if the request failed or succeeded
+    request.always(function () {
+        // Reenable the inputs
+        $inputs.prop("disabled", false);
+    });
+
+    // Prevent default posting of form
+    event.preventDefault();
+});
+
+contact.find("form").validate({
+    submitHandler: function (form) {
+        return false;
     }
 });

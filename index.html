@@ -31,7 +31,7 @@
 </head>
 <body class="pull_top">
 <div>
-    <img class="background" src="../../img/backgrounds/american-flag-2.jpg" alt="American Flag background">
+    <img class="background" src="img/backgrounds/american-flag-2.jpg" alt="American Flag background">
 </div>
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -43,19 +43,35 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <h1 class="navbar-left">
-                <a href="index.html" title="Brandon Accounting Firm – Robert J. Wellen Jr., PA">
-                    <h1>Robert J. Wellen, Jr., CPA</h1>
+            <div class="navbar-left">
+                <a class="navbar-brand" href="index.html" title="Brandon Accounting Firm – Robert J. Wellen Jr., PA">
+                    <img src="img/robert-wellen-logo.png" alt="logo">
                 </a>
-            </h1>
+            </div>
         </div>
 
         <div class="navbar-right">
-            <p class="phone-number margin-top-6"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                &nbsp;&nbsp;813-643-2904</p>
+            <ul class="list-style-none info">
+                <li class="phone-number"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                    &nbsp;&nbsp;813-643-2904
+                </li>
+                <li class="phone-number"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    &nbsp;&nbsp;Email
+                </li>
+                <li class="phone-number googleMapsLink"><span class="glyphicon glyphicon-map-marker"
+                                                              aria-hidden="true"></span>
+                    <a href="https://www.google.com/maps?saddr=My+Location&daddr=1323+North+Parsons+Avenue+Brandon+FL+33510">
+                        &nbsp;&nbsp;Directions</a>
+                </li>
+                <li class="phone-number appleMapsLink"><span class="glyphicon glyphicon-map-marker"
+                                                             aria-hidden="true"></span>
+                    <a href="http://maps.apple.com/?daddr=1323+North+Parsons+Avenue+Brandon+FL+33510&sddr=Current+Location">
+                        &nbsp;&nbsp;Directions</a>
+                </li>
+            </ul>
         </div>
 
-        <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
+        <div class="navbar-collapse navbar-ex1-collapse collapse" role="navigation">
             <ul id="nav" class="nav navbar-nav navbar-text">
                 <li class="active"><a href="index.html">HOME</a></li>
                 <li><a href="about-us.html">ABOUT</a></li>
@@ -102,8 +118,8 @@
             <!--<img src="img/corporate.png" alt="">-->
             <!--</div>-->
 
-            <div class="col-sm-12 description_wrapper">
-                <h5>Corporate Tax Preparation</h5>
+            <div class="col-sm-12">
+                <h3>Corporate Tax Preparation</h3>
 
                 <p>
                     There are many variations of passages of Lorem Ipsum available, injected generators on the
@@ -121,8 +137,8 @@
             <!--<img src="img/individual.png" alt="">-->
             <!--</div>-->
 
-            <div class="col-sm-12 description_wrapper">
-                <h5>Individual Tax Preparation</h5>
+            <div class="col-sm-12">
+                <h3>Individual Tax Preparation</h3>
 
                 <p>
                     There are many variations of passages of Lorem Ipsum available, injected generators on the
@@ -140,8 +156,8 @@
             <!--<img src="img/irs.png" alt="">-->
             <!--</div>-->
 
-            <div class="col-sm-12 description_wrapper">
-                <h5>IRS Representation</h5>
+            <div class="col-sm-12">
+                <h3>IRS Representation</h3>
 
                 <p>
                     There are many variations of passages of Lorem Ipsum available, injected generators on the
@@ -300,11 +316,13 @@
             <div class="col-sm-6 residence">
                 <ul>
                     <li class="googleMapsLink">
-                        <a target="_blank" href="https://www.google.com/maps?saddr=My+Location&daddr=1323+North+Parsons+Avenue+Brandon+FL+33510">1323
+                        <a target="_blank"
+                           href="https://www.google.com/maps?saddr=My+Location&daddr=1323+North+Parsons+Avenue+Brandon+FL+33510">1323
                             N. Parsons Ave, Brandon, Florida 33510</a>
                     </li>
                     <li class="appleMapsLink">
-                        <a target="_blank" href="http://maps.apple.com/?daddr=1323+North+Parsons+Avenue+Brandon+FL+33510&sddr=Current+Location">1323
+                        <a target="_blank"
+                           href="http://maps.apple.com/?daddr=1323+North+Parsons+Avenue+Brandon+FL+33510&sddr=Current+Location">1323
                             N. Parsons Ave, Brandon, Florida 33510</a>
                     </li>
 
@@ -319,7 +337,7 @@
         </div>
         <div class="row credits">
             <p class="col-md-12 text-center">
-                © 2014 Robert J. Wellen Jr., CPA All rights reserved.
+                © 2014 Robert J. Wellen, Jr., CPA All rights reserved.
             </p>
         </div>
     </div>
@@ -329,7 +347,7 @@
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="bower_components/lavalamp/js/jquery.easing.1.3.js"></script>
 <script src="bower_components/lavalamp/js/jquery.lavalamp.min.js"></script>
-
+<script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/flexslider.js"></script>
 <script src="js/theme.js"></script>

@@ -5,22 +5,39 @@
 .navbar {
   .navbar-header {
     @media all and (max-width: 991px) {
-      padding-top: 10px;
+      padding-top: 6px;
       float: none;
     }
+    .navbar-brand {
+      padding: 10px;
+      margin-top: 5px;
+      img {
+        width: 100%;
+      }
+    }
   }
-}
+  .phone-number {
+    font-size: 13px;
+    margin-bottom: 20px;
+    @media all and (min-width:992px) {
+      font-size: 14px;
+    }
+    a {
+      color: white;
+    }
+  }
 
-.navbar-left {
-  h1 {
-    margin-top: 3px;
+  .collapse {
+    @media all and (min-width: 992px) {
+      display: inline-block !important;
+    }
   }
 }
 
 .navbar-collapse {
   .navbar-text:last-child {
-    margin-left: 135px;
-    @media all and (max-width:991px) {
+    margin-left: 50px;
+    @media all and (max-width: 991px) {
       margin-left: 0px;
     }
   }
@@ -33,25 +50,37 @@
 }
 
 .navbar-left {
-  @media all and (max-width: 991px) {
+  width: 275px;
+  @media all and (min-width: 450px) {
+    margin: 0 auto;
     display: block;
-    margin: 0px auto;
-    width: 300px;
-    text-align: center;
   }
-  @media all and (max-width: 567px) {
-    float: left;
-    font-size: 14px !important;
+  @media all and (min-width: 991px) {
+    width: 360px;
   }
-}
 
-.navbar {
-  .phone-number {
-    @media all and (max-width: 991px) {
-      font-size: 15px;
-      margin-bottom: 20px;
-    }
-  }
+  // For when header text is displayed
+  //  h1 {
+  //    margin-top: 3px;
+  //    @media all and (max-width: 991px) {
+  //      display: block;
+  //      margin: 0px auto;
+  //      width: 300px;
+  //      text-align: center;
+  //    }
+  //    @media all and (max-width: 567px) {
+  //      width: 300px;
+  //      text-align: center;
+  //      margin: 0 auto;
+  //      display: block;
+  //    }
+  //    @media all and (max-width: 449px) {
+  //      font-size: 20px;
+  //      text-align: left;
+  //      margin: 4px 0 0 10px;
+  //      display: block;
+  //    }
+  //  }
 }
 
 .navbar-inverse {
@@ -65,15 +94,24 @@
     right: 4px;
   }
   .nav {
+    @media all and (min-width: 992px) {
+      margin-top: 40px;
+    }
     > li {
       > a {
-        @media all and (max-width:991px) {
-          padding: 5px;
+        padding: 5px;
+        @media all and (max-width: 991px) {
           // Set the width so that the border on the top isn't too wide
-          width: 60px;
+          width: 75px;
           display: block;
           margin: 0px auto;
         }
+        @media all and (min-width: 992px) {
+          font-size: 14px;
+        }
+      }
+      @media all and (min-width: 992px) {
+        margin: 0 10px;
       }
     }
     > li.active {
@@ -84,27 +122,36 @@
       }
     }
   }
-}
 
-.navbar-header {
-  h1 {
-    @media all and (max-width: 567px) {
-      font-size: 20px !important;
-      text-align: left;
-      margin-left: 8px;
+  .navbar-right {
+    ul.info {
+      overflow: hidden;
+      padding: 0;
+      width: 290px;
+      margin: 10px auto;
+      @media all and (min-width: 450px) {
+        width: 300px;
+      }
+      @media all and (min-width: 991px) {
+        width: 170px;
+      }
+      li {
+        float: left;
+        margin-right: 20px;
+        &.googleMapsLink, &.appleMapsLink {
+          margin-right: 0px;
+        }
+        @media all and (min-width: 450px) {
+          float: left;
+          margin-right: 25px;
+          &:last-child {
+            margin-right: 0px;
+          }
+        }
+        @media all and (min-width: 992px) {
+          margin-bottom: 10px;
+        }
+      }
     }
-  }
-}
-
-.lavalamp-object {
-  border-top: 3px solid #9f0000;
-  @media all and (max-width: 991px) {
-    display: none;
-  }
-}
-
-.container > .navbar-header {
-  @media all and (min-width:991px) {
-    margin-top: 7px;
   }
 }

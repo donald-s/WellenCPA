@@ -1,0 +1,23 @@
+#contact .map iframe {
+  @media all and (max-width:499px) {
+    height: 270px;
+    width: 270px;
+  }
+}
+
+#contact .form .box {
+
+  input[type="email"], input[type="phone"] {
+    padding-left: 39px;
+    margin-bottom: 10px;
+    color: black;
+    height: 39px;
+    border-radius: 3px;
+  }
+
+}
+
+#contact_form_success {
+  display: none;
+  margin-bottom: 50px;
+}

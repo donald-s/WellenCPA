@@ -1,5 +1,10 @@
 .main-content {
   margin-top: 20px;
+  @media all and (min-width: 768px) {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 #industries {
@@ -8,7 +13,7 @@
       float: none;
       margin: 0px auto;
       width: auto;
-      padding-left: 25px;
+      padding-left: 35px;
     }
   }
 }

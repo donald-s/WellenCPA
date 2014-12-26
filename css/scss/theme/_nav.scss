@@ -1,3 +1,10 @@
 .phone-number {
   color:white;
 }
+
+.lavalamp-object {
+  border-top: 2px solid #9f0000;
+  @media all and (max-width: 991px) {
+    display: none;
+  }
+}

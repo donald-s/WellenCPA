@@ -28,7 +28,8 @@ gulp.task('connect', function () {
 gulp.task('sass', function () {
     gulp.src(paths.sass)
         .pipe(sass())
-        .pipe(gulp.dest(paths.css));
+        .pipe(gulp.dest(paths.css))
+        .pipe(connect.reload());
 });
 
 gulp.task('css', function() {

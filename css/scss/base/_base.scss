@@ -1,5 +1,5 @@
 .background {
-  opacity: 0.08;
+  opacity: 0.3;
   position: fixed;
   z-index: -1;
   width: 100%;
@@ -20,4 +20,12 @@
     font-weight: bold;
     border-bottom: 0px solid transparent;
   }
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.googleMapsLink, .appleMapsLink {
+  display: none;
 }
