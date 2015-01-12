@@ -37,6 +37,10 @@ gulp.task('css', function() {
         .pipe(connect.reload());
 });
 
+gulp.task('dist', function() {
+
+});
+
 gulp.task('html', function () {
     gulp.src('./*.html')
         .pipe(connect.reload());

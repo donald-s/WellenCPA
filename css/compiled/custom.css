@@ -186,6 +186,11 @@ form .error {
   color: red;
   font-weight: normal; }
 
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: transparent; }
+  .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: transparent; }
+
 .slides li {
   display: none; }
 
